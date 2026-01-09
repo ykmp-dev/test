@@ -1,0 +1,12 @@
+{
+  "name": "evm-wallet-generator",
+  "version": "1.0.0",
+  "description": "Generate EVM wallets and save to CSV",
+  "main": "generate-wallets.js",
+  "scripts": {
+    "generate": "node generate-wallets.js"
+  },
+  "dependencies": {
+    "ethers": "^6.9.0"
+  }
+}
